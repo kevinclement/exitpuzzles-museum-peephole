@@ -1,18 +1,20 @@
 #include <Arduino.h>
 
 const int BTN_1_PIN = 9;
-const int BTN_2_PIN = 6;
+const int BTN_2_PIN = 8;
 
 const int LED_BTN_1_PIN = 7;
-const int LED_BTN_2_PIN = 8;
+const int LED_BTN_2_PIN = 6;
 
+// TODO: Remove these, don't think they are used
+// TODO: confirm
 const int LED_FRNT_1_PIN = 21;
 const int LED_FRNT_2_PIN = 20;
 const int LED_FRNT_3_PIN = 19;
 
-const int LED_1_PIN = 10;
-const int LED_2_PIN = 16;
-const int LED_3_PIN = 14;
+const int LED_1_PIN = 12;
+const int LED_2_PIN = 11;
+const int LED_3_PIN = 10;
 
 int btn1 = 0;
 int btn2 = 0;
